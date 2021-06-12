@@ -1,0 +1,35 @@
+.circle{
+    border: 15px solid black;
+    border-radius: 50%;
+    margin-left: 33%;
+    margin-top: 6%; 
+    height:500px;
+    width:500px;
+    background-color: lightgray;
+    
+}
+.min{
+    height: 200px;
+    border-left: 8px solid black;
+    border-radius: 5px;
+    position: absolute;
+    left:50%;
+    top:46%;
+}
+.hour{
+    width:150px;
+    transform: skewY(15deg);
+    border-top: 8px solid black;
+    border-radius: 5px;
+    position: absolute;
+    left:50%;
+    top:48%;
+}
+.sec {
+    width:125px;
+    border-top:4px solid black;
+    transform: skewY(45deg);
+    position: absolute;
+    top:53.95%;
+    left:50%; 
+}
