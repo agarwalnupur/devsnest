@@ -1,0 +1,33 @@
+<html>
+    <head></head>
+    <body>
+        <script>
+            let x = [];
+            
+            for(let i=0; i<4; i++)
+            {
+                x[i] = prompt("enter array")
+            }
+            let ctr = 0 ,max = 0, item = 0;
+            for(i=0; i<x.length; i++)
+            {
+                ctr=0;
+                for(let j = 0; j<x.length; j++)
+                {
+                    if(x[j] === x[i])
+                    {
+                        ctr=ctr+1;
+                    }
+                }
+                    if(ctr>max)
+                    {
+                        max = ctr;
+                        item = x[i];
+                    }
+
+                
+            }
+            document.write("max occurence is ", max ," times of ", item);
+        </script>
+    </body>
+</html>
