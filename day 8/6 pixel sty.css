@@ -1,0 +1,27 @@
+.box{
+    background-color: #DE4738;
+    height: 20px;
+    width: 20px;
+    border: 0.025px solid #E24E3F;
+    
+}
+.box:hover{
+    background-color: #EC5142;
+    border-color: #E24E3F;
+    cursor: pointer;
+}
+.column{
+    display:flex;
+    justify-content: center;
+    
+}
+.clicked{
+    background-color: white;
+    border-color:  white;
+
+}
+.clicked:hover{
+    background-color: white;
+    border-color:  white;
+
+}
