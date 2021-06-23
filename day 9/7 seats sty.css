@@ -1,0 +1,45 @@
+.seat{
+    width: 150px;
+    height: 80px;
+    background-color: #8b5e34;
+    border : 3px solid #293241;
+    cursor: pointer;
+}
+.seat:hover{
+    background-color: #603808;
+   
+}
+body{
+    background-color: #eed7c5;
+}
+.column{
+    display : flex;
+    justify-content: center;
+   position: relative;
+   left: 50%;
+   bottom:50%;
+   transform: translate(-50%,50%);
+    
+}
+.avl{
+    font-size: 30px;
+    font-family: sans-serif;
+    text-align: center;
+
+}
+.book{
+    font-size: 30px;
+    font-family: sans-serif;
+    text-align: center;
+
+}
+h2{
+    text-align: center;
+    font-family:serif;
+    font-size: 2rem;
+}
+.clicked{
+    opacity: 0.5;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfeZKVX_0ajCfaOhQfgyBVKatA-qFgDEH9gw&usqp=CAU');
+    background-size: 150px 70px;
+}
