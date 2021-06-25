@@ -1,0 +1,31 @@
+<html>
+    <head></head>
+    <body>
+        <script>
+            const library = [{author : "Bill Gates" ,
+            title : "The road ahead" ,
+            readingStatus : true},
+            { author : "Steve Jobs" ,
+            title : "Walter Issacson" ,
+            readingStatus : true},
+            { author : "Suzanne Collins" ,
+                title : "Mockingjay: The Final Book Of Hunger Games" ,
+                readingStatus: false
+            }]
+            for( let i = 0; i<library.length ; i++)
+            {
+                if(library[i].readingStatus)
+                {
+                    document.write("You have read " , library[i].title , " by " , library[i].author);
+                    document.write("<br/>")
+                }
+                else
+                {
+                    document.write("You haven't read " , library[i].title , " by " , library[i].author);
+                }
+            }
+
+            
+        </script>
+    </body>
+</html>

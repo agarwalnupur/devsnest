@@ -1,0 +1,16 @@
+<html>
+    <head></head>
+    <body>
+        <script>
+            var rad = prompt("Enter Radius");
+            var ht = prompt("Enter height");
+            let radius, height;
+            var cyl = {
+                radius : parseInt(rad) ,
+                height : parseInt(ht)
+            };
+            let vol = Math.PI* cyl.radius* cyl.radius* cyl.height;
+            document.write(vol.toFixed(4))
+        </script>
+    </body>
+</html>
