@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>Quizzz</title>
+        <link rel = "stylesheet" href = "9 quiz .css">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+    </head>
+    <body>
+
+        <div class = "main">
+            <div class = "quiz">
+
+                <h2>Quizzz</h2>
+   
+            
+                    <h2><div class="ques"></div></h2>
+                    <h2 class = "options">
+                        <section>
+                            <input type = "radio" name = "quiz" class = "check" id= "opt1" value = "0">
+                            <label for = "opt1" class = "select"></label>
+                        </section>
+                        <section>
+                            <input type = "radio" name = "quiz" class = "check" id= "opt2" value = "1">
+                            <label for = "opt2" class = "select"></label>
+                        </section>
+                        <section >
+                            <input type = "radio" name = "quiz" class = "check" id= "opt3" value = "2">
+                            <label for = "opt3" class = "select"></label>
+                        </section>
+                        <section>
+                            <input type = "radio" name = "quiz" class = "check" id= "opt4" value = "3">
+                            <label for = "opt4" class = "select"></label>
+                        </section>
+                    </h2>
+            </div>
+            <div >
+                <!-- <button class = "subbtn">Submit</button> -->
+                <button class = "prevbtn">Previous</button>
+                <button class = "nextbtn">  Next </button>
+            </div>
+        </div>
+        <script src = "9 quiz.js"></script>
+    </body>
+</html>
