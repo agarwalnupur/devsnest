@@ -1,0 +1,15 @@
+<html>
+    <head>
+        <title>GitHub Api</title>
+        <link rel= "stylesheet" href="11 github api.css">
+    </head>
+    <body>
+        <h2 id = "topic">Enter Your GitHub Username</h2>
+        <input type = "text" id = "ipbox">
+        <button id = "btn">SEarCH</button>
+        <img class = "output"></div>
+        <div id = "username"></div>
+        <div id = "repo"></div>
+        <script src= "11 github api.js"></script>
+    </body>
+</html>
