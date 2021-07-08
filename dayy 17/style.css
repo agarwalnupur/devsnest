@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.App{
+    height: 500px;
+    width:600px;
+    overflow: auto;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,10%);
+    box-shadow: 2px 2px 10px 5px rgb(146, 144, 144);
+}
+h1{
+    
+    text-align: center;
+
+}
+.card{
+    height: 125px;
+    width: 500px;
+    background-color: lightseagreen;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    margin-left: 7%;
+    box-shadow: 2px 2px 10px lightseagreen;
+}
+.card h2{
+    text-align: center;
+}
+.card span{
+    font-size: 25px;
+}
