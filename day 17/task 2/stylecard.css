@@ -1,0 +1,28 @@
+ *{
+     box-sizing: border-box;
+ }
+ 
+ .card{
+    width: 320px;
+    height: 400px;
+    background-color: white;
+    position: relative;
+    left:50%;
+    transform: translate(-50%,45%);
+    border-radius: 5px;
+    box-shadow: 5px 3px 10px black;
+} 
+.card img{
+    height: 300px;
+    width: 300px;
+    padding: 15px;
+    border-radius: 5pxs;
+} 
+h1,p{
+    /* padding-left: 10px; */
+    text-align: center;
+    line-height: 45%;
+}
+p{
+    font-size: 20px;
+}
