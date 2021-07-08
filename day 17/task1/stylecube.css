@@ -1,0 +1,39 @@
+
+.box{
+    height: 240px;
+    width: 240px;
+    padding: 1px;
+    display: grid;
+    grid-template-columns: repeat(8 , 1fr);
+    border: 20px solid black;
+    position: relative;
+    left: 50%;
+    transform: translate(-50% , 50%);
+}
+
+.column1 .cube{
+    height: 30px;
+    width: 30px;
+    background-color: black;
+}
+
+.column1 .cube:nth-child(2n){
+    background-color: white;
+}
+
+.column2 .cube{
+    height: 30px;
+    width: 30px;
+    background-color: black;
+}
+.column2 .cube:nth-child(2n + 1){
+    background-color: white;
+
+}
+
+
+
+
+
+
+
