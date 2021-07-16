@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <title>Todo List</title>
+        <link rel = "stylesheet" href = "10 todo list.css">
+    </head>
+    <body>
+        <div class = "main">
+                <h2 id = "topic">Enter Your To-dos</h2>
+                <input type = "text" id = "todoinput"><br>
+                <button id= "btn">ADD TODOS</button>
+                <button id = "clearbtn">CLEAR</button>
+                <!-- <button id = "savebtn">SAVE</button> -->
+                <h2><div class = "mainop"></div></h2>
+           
+        </div>
+        <script src = "10 todo list trial.js"></script>
+    </body>
+</html>
