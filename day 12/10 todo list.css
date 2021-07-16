@@ -1,0 +1,44 @@
+body{
+    background-color: azure;
+}
+.main{
+    height: 300px;
+    margin-left: 50%;
+    margin-top: 10%;
+    transform: translate(-24% ,0%); 
+}
+#topic{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+#todoinput{
+    font-size: 25px;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 20px;
+    border: 1px solid gray;
+    border-radius: 50px;
+    outline: none;
+
+}
+#savebtn, #btn, #clearbtn{
+    padding: 15px;
+    margin-top: 25px;
+    margin-right: 10px;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor : pointer;
+}
+
+ #savebtn:hover, #btn:hover, #clearbtn:hover, #todoinput:hover {
+    box-shadow: 5px 8px 15px rgb(168, 165, 165);
+
+}
+.output{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS';
+}
