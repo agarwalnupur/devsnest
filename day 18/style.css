@@ -1,0 +1,22 @@
+
+.whole{
+    height: 240px;
+    width: 240px;
+    padding: 1px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,50%);
+    display:flex;
+    border: 15px solid black;
+}
+
+.blackbox{
+    height: 30px;
+    width: 30px;
+    background-color: black;
+}
+.whitebox{
+    height: 30px;
+    width: 30px;
+    background-color: white;   
+}
