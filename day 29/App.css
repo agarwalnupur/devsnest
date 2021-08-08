@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Roboto:wght@700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+.App {
+  height: 100vh;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  background: linear-gradient(rgb(136, 136, 190), rgb(224, 174, 182));
+
+}
+.form{
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+.form input{
+  padding: 0px 10px;
+}
+.form button{
+  margin: 0px 20px;
+}
+/* .weather{
+  text-align: center;
+} */
+
+.card{
+  margin-top: 50px;
+  background: rgba( 255, 255, 255, 0.55 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 3.0px );
+  -webkit-backdrop-filter: blur( 3.0px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+}
+
+.card img {
+  width: 30%;
+  margin-top: 20px;
+}
+.card .temp{
+  margin-left: 36.63px;
+  font-size: 4rem;
+  font-weight: 500;
+}
+.card .city{
+  margin: 5px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  opacity: 0.8;
+} 
+.card .desc{
+  font-size: 0.9rem;
+}
+
+.whp .title{
+  font-size: 0.8rem;
+}
+.whp .data{
+  font-size: 2rem;
+}
+.data #unit{
+  font-size: .8rem;
+}
