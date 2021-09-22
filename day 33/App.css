@@ -1,0 +1,50 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.App.dark{
+
+  background-color: #0b0b0b;
+  color: white;
+}
+
+.theme-toggle{
+  padding: 10px 5px;
+  position: fixed;
+  right: 10px;
+  top: 10px;
+  background-color: #0b0b0b;
+  color: white;
+  font-size: 1.2rem;
+}
+.theme-toggle.dark{
+  background-color: white;
+  color: #0b0b0b;
+}
+
+.todos{
+  height: 100vh;
+  width: 100vw;
+  text-align:center;
+  padding: 50px;
+ 
+}
+.todos.dark{
+  background-color: #0b0b0b;
+  color: white;
+}
+.todos input{
+  margin: 0px 10px;
+  font-size: 1.2rem;
+  padding: 10px;
+
+}
+.todos button{
+  font-size: 1.2rem;
+  padding: 10px;
+
+}
+.todo-list{
+  margin: 10px;
+}
